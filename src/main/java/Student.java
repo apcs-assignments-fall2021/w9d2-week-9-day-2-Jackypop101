@@ -24,11 +24,8 @@ public class Student extends Person {
         this.classYear = 2024;
     }
 
-    public String doSomething() {
-        return("I am preparing for a Harkness discussion!");
-}
     public String toString() {
-        String str = this.getFirstName() + " " + this.getLastName() + ", " + this.classYear;
+        String str = this.getfirstname() + " " + this.getlastname() + ", " + this.classYear;
         return str;
     }
 
